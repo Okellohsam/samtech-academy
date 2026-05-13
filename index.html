@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAMTECH ACADEMY</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://upload-widget.cloudinary.com/global/all.js"></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <span>SAMTECH</span> ACADEMY
+    </div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search tutorials, creators, cybersecurity...">
+      <button>
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+
+    <div class="nav-actions">
+      <button class="upload-btn" id="upload_widget">
+        <i class="fas fa-upload"></i>
+        Upload
+      </button>
+
+      <button class="icon-btn">
+        <i class="fas fa-bell"></i>
+      </button>
+
+      <img src="https://i.pravatar.cc/100" class="avatar">
+    </div>
+  </header>
+
+  <aside class="sidebar">
+    <a href="#">
+      <i class="fas fa-home"></i>
+      Home
+    </a>
+
+    <a href="#">
+      <i class="fas fa-fire"></i>
+      Trending
+    </a>
+
+    <a href="#">
+      <i class="fas fa-video"></i>
+      Subscriptions
+    </a>
+
+    <a href="#">
+      <i class="fas fa-history"></i>
+      History
+    </a>
+
+    <a href="#">
+      <i class="fas fa-bookmark"></i>
+      Watch Later
+    </a>
+
+    <a href="#">
+      <i class="fas fa-user-shield"></i>
+      Cybersecurity
+    </a>
+  </aside>
+
+  <main class="main-content">
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content" data-aos="fade-up">
+        <h1>
+          Learn. Build. Dominate The Tech Industry.
+        </h1>
+
+        <p>
+          Master cybersecurity, programming, AI engineering,
+          ethical hacking, cloud computing and more.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="primary-btn">
+            Start Learning
+          </button>
+
+          <button class="secondary-btn">
+            Become A Creator
+          </button>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <h2>120K+</h2>
+            <span>Students</span>
+          </div>
+
+          <div>
+            <h2>15K+</h2>
+            <span>Videos</span>
+          </div>
+
+          <div>
+            <h2>8K+</h2>
+            <span>Creators</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <h2>Popular Categories</h2>
+
+      <div class="category-grid">
+        <div class="category-card">
+          <i class="fas fa-user-secret"></i>
+          <span>Ethical Hacking</span>
+        </div>
+
+        <div class="category-card">
+          <i class="fas fa-code"></i>
+          <span>Web Development</span>
+        </div>
+
+        <div class="category-card">
+          <i class="fas fa-brain"></i>
+          <span>AI Engineering</span>
+        </div>
+
+        <div class="category-card">
+          <i class="fas fa-server"></i>
+          <span>Cloud Computing</span>
+        </div>
+
+        <div class="category-card">
+          <i class="fas fa-network-wired"></i>
+          <span>Networking</span>
+        </div>
+
+        <div class="category-card">
+          <i class="fab fa-linux"></i>
+          <span>Linux</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-videos">
+      <div class="section-header">
+        <h2>Trending Tutorials</h2>
+        <button>View All</button>
+      </div>
+
+      <div class="video-grid">
+
+        <div class="video-card" data-aos="zoom-in">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop">
+            <span class="duration">12:40</span>
+          </div>
+
+          <div class="video-info">
+            <img src="https://i.pravatar.cc/50?img=3" class="creator-avatar">
+
+            <div>
+              <h3>Complete Ethical Hacking Course For Beginners</h3>
+              <p>SAMTECH Security</p>
+              <span>120K views • 2 days ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" data-aos="zoom-in">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop">
+            <span class="duration">20:14</span>
+          </div>
+
+          <div class="video-info">
+            <img src="https://i.pravatar.cc/50?img=5" class="creator-avatar">
+
+            <div>
+              <h3>Build Full Stack Apps Using JavaScript</h3>
+              <p>SAMTECH Academy</p>
+              <span>92K views • 1 week ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" data-aos="zoom-in">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1200&auto=format&fit=crop">
+            <span class="duration">8:44</span>
+          </div>
+
+          <div class="video-info">
+            <img src="https://i.pravatar.cc/50?img=8" class="creator-avatar">
+
+            <div>
+              <h3>Linux Administration Crash Course</h3>
+              <p>Cyber Labs</p>
+              <span>75K views • 5 days ago</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="community-feed">
+      <div class="section-header">
+        <h2>Community Discussions</h2>
+      </div>
+
+      <div class="post-card">
+        <div class="post-header">
+          <img src="https://i.pravatar.cc/100?img=7">
+
+          <div>
+            <h4>Samwel Okello</h4>
+            <span>2 hours ago</span>
+          </div>
+        </div>
+
+        <p>
+          What cybersecurity topic should SAMTECH ACADEMY teach next?
+        </p>
+
+        <div class="post-actions">
+          <button>
+            <i class="fas fa-heart"></i>
+            245
+          </button>
+
+          <button>
+            <i class="fas fa-comment"></i>
+            38
+          </button>
+
+          <button>
+            <i class="fas fa-share"></i>
+            Share
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<script src="assets/js/app.js"></script>
+
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>

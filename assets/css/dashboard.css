@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family: Arial;
+}
+
+.dashboard-layout {
+  display: flex;
+}
+
+.dashboard-sidebar {
+  width: 260px;
+  background: #08101d;
+  height: 100vh;
+  padding: 30px;
+}
+
+.dashboard-sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 40px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.stat-card {
+  background: #0f172a;
+  padding: 30px;
+  border-radius: 20px;
+}
